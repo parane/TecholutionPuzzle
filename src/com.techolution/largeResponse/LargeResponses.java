@@ -19,8 +19,6 @@ public class LargeResponses {
 
         FileReader fr = null;
 
-
-
         try {
 
             fr = new FileReader(FILENAME);
@@ -58,7 +56,7 @@ public class LargeResponses {
         largeResponse(lines);
     }
 
-    static void largeResponse(List<String> lines){
+    public static void largeResponse(List<String> lines){
 
         int count =0;
         int totalSize=0;

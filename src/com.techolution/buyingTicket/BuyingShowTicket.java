@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Parani on 01/04/2018.
  */
-public class BuyingShowTickets {
+public class BuyingShowTicket {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -19,7 +19,7 @@ public class BuyingShowTickets {
         sc.close();
     }
 
-    private static int findWaitingTime(int[] array, int p) {
+    public  static int findWaitingTime(int[] array, int p) {
         int time = 0;
         int i =0;
         while(array[p] != 0){

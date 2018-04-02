@@ -1,4 +1,4 @@
-package com.techolution.countingGroup;
+package com.techolution.countingGroups;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;

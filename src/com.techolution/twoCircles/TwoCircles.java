@@ -1,4 +1,4 @@
-package com.techolution.twoCircle;
+package com.techolution.twoCircles;
 
 import java.util.Scanner;
 
@@ -21,7 +21,7 @@ public class TwoCircles {
         }
     }
 
-    private static String[] circles(String[] info) {
+    public static String[] circles(String[] info) {
         String[] output = new String[info.length];
         for(int i = 0; i < output.length; i++){
             String[] input = info[i].split(" ");

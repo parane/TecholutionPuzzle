@@ -31,7 +31,7 @@ public class PsychometricTesting {
         }
     }
 
-    static int[] jobOffers(int[] scores, int[] lowerLimits, int[]
+    public static int[] jobOffers(int[] scores, int[] lowerLimits, int[]
             upperLimits){
 
         int[] joboffers= new int[lowerLimits.length];

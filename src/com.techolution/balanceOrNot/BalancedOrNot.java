@@ -30,7 +30,7 @@ public class BalancedOrNot {
 
     }
 
-    static int[] balanceOrNot(String[] expressions,int[] maxReplacements){
+    public static int[] balanceOrNot(String[] expressions,int[] maxReplacements){
         int[] isPossible= new int[maxReplacements.length];
 
         for(int j=0; j<expressions.length;j++){

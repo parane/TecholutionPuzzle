@@ -1,4 +1,4 @@
-package com.techolution.findWinner;
+package com.techolution.findTheWinner;
 
 import java.util.Scanner;
 
@@ -24,7 +24,7 @@ public class findTheWinner {
         in.close();
     }
 
-    static String winner(int[] andrea,int[] maria, String s){
+    public static String winner(int[] andrea,int[] maria, String s){
 
         int andreaScore=0;
         int mariaScore=0;
