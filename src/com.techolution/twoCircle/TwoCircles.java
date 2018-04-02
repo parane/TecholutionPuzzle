@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Parani on 01/04/2018.
  */
-public class TwoCircle {
+public class TwoCircles {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

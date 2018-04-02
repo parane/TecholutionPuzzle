@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Parani on 01/04/2018.
  */
-public class BuyingShowTicket {
+public class BuyingShowTickets {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

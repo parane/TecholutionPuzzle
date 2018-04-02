@@ -6,7 +6,7 @@ import java.util.Stack;
 /**
  * Created by Parani on 01/04/2018.
  */
-public class BalanceOrNot {
+public class BalancedOrNot {
 
     public  static void main(String[] a){
         Scanner in = new Scanner(System.in);

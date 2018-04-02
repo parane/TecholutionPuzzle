@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Created by Parani on 01/04/2018.
  */
-public class LargeResponse {
+public class LargeResponses {
     private static final String FILENAME = "src/com.techolution/largeResponse/hosts_access_log_00.txt";
     public  static void main(String[] a) {
 
