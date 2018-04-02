@@ -15,11 +15,11 @@ public class BuyingShowTicket {
             array[i] = sc.nextInt();
         }
         int p = sc.nextInt();
-        System.out.println(findWaitingTime(array, p));
+        System.out.println(waitingTime(array, p));
         sc.close();
     }
 
-    public  static int findWaitingTime(int[] array, int p) {
+    public  static int waitingTime(int[] array, int p) {
         int time = 0;
         int i =0;
         while(array[p] != 0){

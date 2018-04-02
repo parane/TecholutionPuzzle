@@ -29,7 +29,7 @@ public class CountingGroups {
         }
     }
 
-    private static int[] countGroups(int[][] array, int[] input) {
+    public static int[] countGroups(int[][] array, int[] input) {
         int[] output = new int[input.length];
         int[][] groups = count(array);
         for(int i =0; i < input.length; i++){

@@ -20,7 +20,7 @@ public class BalancedOrNot {
         for(int a0 = 0; a0 < t; a0++){
             maxReplacements[a0] = in.nextInt();
         }
-        int[] k=balanceOrNot(expressions,maxReplacements);
+        int[] k=balancedOrNot(expressions,maxReplacements);
         for(int g:k){
             System.out.println(g);
         }
@@ -30,7 +30,7 @@ public class BalancedOrNot {
 
     }
 
-    public static int[] balanceOrNot(String[] expressions,int[] maxReplacements){
+    public static int[] balancedOrNot(String[] expressions,int[] maxReplacements){
         int[] isPossible= new int[maxReplacements.length];
 
         for(int j=0; j<expressions.length;j++){
